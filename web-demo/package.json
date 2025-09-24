@@ -1,0 +1,32 @@
+{
+  "name": "deepfilternet-web-demo",
+  "version": "1.0.0",
+  "description": "DeepFilterNet web demo with three optimization modes",
+  "main": "https_server.js",
+  "scripts": {
+    "start": "node https_server.js",
+    "start:compressed": "node https_server_compressed.js",
+    "dev": "node https_server.js"
+  },
+  "keywords": [
+    "deepfilternet",
+    "wasm",
+    "audio",
+    "noise-reduction",
+    "simd",
+    "optimization"
+  ],
+  "author": "DeepFilterNet Optimized",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/deepfilternet-optimized.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/deepfilternet-optimized/issues"
+  },
+  "homepage": "https://github.com/yourusername/deepfilternet-optimized#readme"
+}
